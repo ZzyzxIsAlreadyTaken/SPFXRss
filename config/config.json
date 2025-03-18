@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "nmd-rss-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/nmdRss/NmdRssWebPart.js",
+          "manifest": "./src/webparts/nmdRss/NmdRssWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NmdRssWebPartStrings": "lib/webparts/nmdRss/loc/{locale}.js"
+  }
+}

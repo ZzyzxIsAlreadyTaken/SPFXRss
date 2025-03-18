@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "nmd-rss-client-side-solution",
+    "id": "c248087e-6c99-487e-a07e-be49e5baf9db",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "nmd-rss description"
+      },
+      "longDescription": {
+        "default": "nmd-rss description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "nmd-rss Feature",
+        "description": "The feature that activates elements of the nmd-rss solution.",
+        "id": "68cf3154-be10-432e-836a-2f39acd6c159",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/nmd-rss.sppkg"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "nmd-rss",
-  "version": "0.0.1",
+  "version": "1.1.0",
   "private": true,
   "engines": {
     "node": ">=18.17.1 <19.0.0"
@@ -19,6 +19,7 @@
     "@microsoft/sp-office-ui-fabric-core": "1.20.0",
     "@microsoft/sp-property-pane": "1.20.0",
     "@microsoft/sp-webpart-base": "1.20.0",
+    "postcss": "^8.5.5",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "tslib": "2.3.1"

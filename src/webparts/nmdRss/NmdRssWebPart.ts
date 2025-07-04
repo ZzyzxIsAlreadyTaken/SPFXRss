@@ -13,11 +13,13 @@ import RSSFeedComponent from "./components/NmdRss";
 export interface INmdRssWebPartProps {
   description: string;
   feedUrl: string;
+  title: string;
 }
 
 export default class NmdRssWebPart extends BaseClientSideWebPart<INmdRssWebPartProps> {
   public render(): void {
     const element: React.ReactElement = React.createElement(RSSFeedComponent, {
+      title: this.properties.title,
       feedUrl: this.properties.feedUrl,
       spHttpClient: this.context.spHttpClient,
       siteUrl: this.context.pageContext.web.absoluteUrl,
@@ -47,6 +49,9 @@ export default class NmdRssWebPart extends BaseClientSideWebPart<INmdRssWebPartP
               groupFields: [
                 PropertyPaneTextField("feedUrl", {
                   label: "RSS Feed URL",
+                }),
+                PropertyPaneTextField("title", {
+                  label: "Title",
                 }),
               ],
             },

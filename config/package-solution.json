@@ -1,9 +1,9 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "nmd-rss-client-side-solution",
+    "name": "NMD RSS byAtea",
     "id": "c248087e-6c99-487e-a07e-be49e5baf9db",
-    "version": "1.0.0.0",
+    "version": "1.1.0.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -16,10 +16,10 @@
     },
     "metadata": {
       "shortDescription": {
-        "default": "nmd-rss description"
+        "default": "NMD RSS by Atea short description"
       },
       "longDescription": {
-        "default": "nmd-rss description"
+        "default": "NMD RSS by Atea long description"
       },
       "screenshotPaths": [],
       "videoUrl": "",
@@ -27,14 +27,14 @@
     },
     "features": [
       {
-        "title": "nmd-rss Feature",
-        "description": "The feature that activates elements of the nmd-rss solution.",
+        "title": "NMD RSS by Atea Feature",
+        "description": "The feature that activates elements of the NMD RSS by Atea solution.",
         "id": "68cf3154-be10-432e-836a-2f39acd6c159",
-        "version": "1.0.0.0"
+        "version": "1.1.0.0"
       }
     ]
   },
   "paths": {
-    "zippedPackage": "solution/nmd-rss.sppkg"
+    "zippedPackage": "solution/nmd-rss-byAtea.sppkg"
   }
 }
